@@ -18,3 +18,7 @@ Steps to run and test....
 4. To run Kibana first update the file D:\Learning\Elastic-Stack\kibana-8.13.2\config\kibana.yml and un-comment elasticsearch.hosts: ["http://localhost:9200"]
 5. Command to up Kibana D:\Learning\Elastic-Stack\kibana-8.13.2\bin\kibana.bat
 
+How to get data from elasticsearch?
+1. Run the query on the kibana console 
+2. Hit the REST API from cmd using curl :- curl -XGET http://localhost:9200/_cat/indices
+
