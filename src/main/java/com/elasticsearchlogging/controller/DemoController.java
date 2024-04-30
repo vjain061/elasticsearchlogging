@@ -28,6 +28,7 @@ public class DemoController {
         User user = new User(1, "Vaibhav");
         User user2 = new User(2, "Riya");
         User user3 = new User(3, "Prathvi");
-        return Arrays.asList(user, user2, user3);
+        User user4 = new User(4, "Ram");
+        return Arrays.asList(user, user2, user3, user4);
     }
 }
